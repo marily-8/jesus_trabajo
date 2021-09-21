@@ -108,8 +108,7 @@ h1{
         background-color: #8DCBD5;
         width: 80%;
         height: calc(100% - 80px);
-        position: fixed;
-        
+        position: fixed;       
         margin: 0;
         overflow: scroll;
     }

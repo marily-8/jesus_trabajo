@@ -7,7 +7,7 @@ ul{
     text-align: right;
     background: #99A3A4  ;
     font-family: 'Kaushan Script', cursive;
-    font-weight: 1200;
+    font-weight: 1200px;
     color: white;
 }
 li{
@@ -25,4 +25,5 @@ a:hover {
     font-size: 1.05em;
 
 }
+
 
