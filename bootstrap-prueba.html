@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-offline.css">
+    <title>BOOTSTRAP</title>
+</head>
+<body>
+    <h1>Bootstrap - Elemento basico</h1>
+        <h2>Container</h2>
+            <h3>¡Container!</h3>
+         <div class="container style-container">
+         container
+        </div>
+                
+        <h3>¡Container! SM</h3>
+        <div class="container-sm style-container">
+        container-sm
+        </div>
+
+        <h3>¡Container! MD</h3>
+        <div class="container-sm style-container">
+        container-md
+        </div>
+
+        <h3>¡Container! LG</h3>
+        <div class="container-lg style-container">
+        container-lg
+        </div>
+
+        <h3>¡Container! XL</h3>
+        <div class="container-xl style-container">
+        <container-xl></container-xl>
+        </div>
+
+        <h3>¡Container! XXL</h3>
+        <div class="container-xxl style-container">
+        container-xxl
+        </div>
+
+        <h3>¡Container! FLUIDO</h3>
+        <div class="container-fluid style-container">
+        container-fluid
+        </div>
+
+<br><br>
+        <h2>Comlumnas</h2>
+        <div class="row style-row">
+            <div class="col style-col">Col - 1</div>
+            <div class="col style-col">Col - 2</div>
+            <div class="col style-col">Col - 3</div>
+            <div class="col style-col">Col - 4</div>
+            <div class="col style-col">Col - 5</div>
+            <div class="col style-col">Col - 6</div>
+            <div class="col style-col">Col - 7</div>
+            <div class="col style-col">Col - 8</div>
+            <div class="col style-col">Col - 9</div>
+            <div class="col style-col">Col - 10</div>
+            <div class="col style-col">Col - 11</div>
+            <div class="col style-col">Col - 12</div>
+        </div>
+
+<br><br>
+        <h2>Comlumnas</h2>
+        <div class="row style-row">
+            <div class="col-2 style-col">Col - 1</div>
+            <div class="col-1 style-col">Col - 2</div>
+            <div class="col-4 style-col">Col - 3</div>
+            <div class="col-1 style-col">Col - 4</div>
+            <div class="col-1 style-col">Col - 5</div>
+            <div class="col-3 style-col">Col - 6</div>
+        </div>
+
+<br><br>
+        <h2>Formulario Basico con Bootstrap</h2>
+        <div class="container">
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su nombre">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su apellido.">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su telefono.">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su direccion..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su correo electronico.">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su municipio de recidencia.">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>           
+         </div>
+
+<br><br>
+         <h2>File input</h2>
+         <div class="container">
+         <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+        </div>
+
+<br><br>
+<h2>Detalist</h2>
+<div class="container style-container-2">
+    <label for="exampleDataList" class="form-label">Seleccione su recidencia</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+        <option value="San Francisco">
+        <option value="New York">
+        <option value="Seattle">
+        <option value="Los Angeles">
+        <option value="Chicago">
+</datalist>
+</div>
+
+<br><br>
+<h2>Select</h2>
+<div class="container style-container-2">
+    <label>Ingrese su localidad</label>
+    <select class="form-select" aria-label="Default select example">
+    <option value="1">Kennedy</option>
+    <option value="2">Rafael Uribe</option>
+    <option value="3">Chapinero</option>
+</select>
+</div>
+
+<br><br>
+<h2>Check</h2>
+<div class="container style-container-2">
+    <label>Seleccion el o los lenguajes de programacion que utiliza actualmente</label>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      JavaScript
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      Angular
+    </label>
+  </div>
+</div>
+
+<br><br>
+<h2>Radio</h2>
+<div class="container style-container-2">
+    <label>Seleccion el o los lenguajes de programacion que utiliza actualmente</label>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Base de datos
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Java
+    </label>
+  </div>
+</div>
+
+</body>
+</html>
+                                            
